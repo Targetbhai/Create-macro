@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "createmacro",
+	"version": "${version}",
+	"name": "Create Macro",
+	"description": "Build your own key macros in an in-game GUI: trigger key, held-item condition, key sequences and delays.",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.createmacro.CreateMacroMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
